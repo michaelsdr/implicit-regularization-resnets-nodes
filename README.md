@@ -1,6 +1,6 @@
-# Code to reproduce the ICLR submission : "_Implicit regularization of deep residual networks towards neural ODEs_"
+# Code to reproduce the ICLR 2024 Paper : "_Implicit regularization of deep residual networks towards neural ODEs_"
 
-
+`Paper <https://arxiv.org/abs/2309.01213>_` 
 
 ## Compat
 
