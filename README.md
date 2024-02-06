@@ -66,3 +66,16 @@ python one_expe_cifar.py --lr 4e-2 --depth 256  --seed 1 --smooth_init SMOOTH_IN
 ```
 
 Where SMOOTH_INIT is in [True, False]. When True, the weights are initialized smoothly. NON_LIN is the non-linearity used and can be relu, gelu, or linear. 
+
+## Citation
+
+If you use this code in your research, please consider citing it. 
+
+@article{marion2023implicit,
+  title={Implicit regularization of deep residual networks towards neural ODEs},
+  author={Marion, Pierre and Wu, Yu-Han and Sander, Michael E and Biau, G{\'e}rard},
+  journal={arXiv preprint arXiv:2309.01213},
+  year={2023}
+}
+
+
