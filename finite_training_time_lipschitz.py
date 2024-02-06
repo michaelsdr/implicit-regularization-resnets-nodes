@@ -104,9 +104,10 @@ for i, x in enumerate(opt_indices):
     for N in Ns:
         vs.append(max(D[N, "V", x], D[N, "W", x]))
     color = plt.cm.viridis(i / len(opt_indices))
-    plt.loglog(Ns, vs, label=str(int(opt_indices[i]) - 1), lw=2, color=color)
+    plt.loglog(Ns, vs, label=str(int(opt_indices[i])), lw=2, color=color)
 plt.xlabel("Depth $L$")
 plt.ylabel("$\mathrm{max}_{k,t}(\|Z^L_k(t) - Z^L_{k+1}(t)\|_F)$")
 plt.legend(loc="center left", bbox_to_anchor=(1, 0.5))
 plt.tight_layout()
+os.makedirs("figures", exist_ok=True)
 plt.savefig("figures/max_v_w.pdf")

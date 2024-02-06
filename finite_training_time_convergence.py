@@ -123,6 +123,7 @@ plt.yticks(ticks=np.arange(len(Ns))[:-1], labels=Ns[:-1])
 plt.colorbar()
 plt.title("$\|\mathcal{V}^L(., t)  - \mathcal{V}(., t)\|$")
 plt.tight_layout()
+os.makedirs("figures", exist_ok=True)
 plt.savefig("figures/fig_V.pdf")
 
 norms_t = []

@@ -94,6 +94,7 @@ plot_epochs = np.arange(0, len(V_t), 100)
 p = 0.7
 k_plot = 4
 num_colors = len(plot_epochs)
+os.makedirs("figures", exist_ok=True)
 for i in range(k_plot):  # M
     for j in range(k_plot):  # d
         plt.figure(figsize=(4 * p, 2.5 * p))

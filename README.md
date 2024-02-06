@@ -31,7 +31,7 @@ We train the model as described in the paragraph _Large-depth limit_, with reduc
 To reproduce the left-hand figure: 
 
 ```bash
-python finite_training_time_lipshitz.py
+python finite_training_time_lipschitz.py
 ```
 
 The plot is saved in the folder figures.
@@ -71,11 +71,11 @@ Where SMOOTH_INIT is in [True, False]. When True, the weights are initialized sm
 
 If you use this code in your research, please consider citing: 
 
-@article{marion2023implicit,
+@inproceedings{marion2024implicit,
   title={Implicit regularization of deep residual networks towards neural ODEs},
   author={Marion, Pierre and Wu, Yu-Han and Sander, Michael E and Biau, G{\'e}rard},
-  journal={arXiv preprint arXiv:2309.01213},
-  year={2023}
+  booktitle={International Conference on Learning Representations},
+  year={2024}
 }
 
 
