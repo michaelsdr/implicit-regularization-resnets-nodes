@@ -69,7 +69,7 @@ Where SMOOTH_INIT is in [True, False]. When True, the weights are initialized sm
 
 ## Citation
 
-If you use this code in your research, please consider citing it. 
+If you use this code in your research, please consider citing: 
 
 @article{marion2023implicit,
   title={Implicit regularization of deep residual networks towards neural ODEs},
